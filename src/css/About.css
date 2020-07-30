@@ -1,0 +1,41 @@
+#about .inner {
+  display: flex;
+  align-items: center;
+}
+#about {
+  padding: 10px;
+  width: 100%;
+}
+#about .inner div {
+  width: 50%;
+  padding: 35px;
+}
+
+#about .inner div article {
+  color: #777777;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+#about .inner div img {
+  width: 100%;
+  height: auto;
+}
+
+.hadding {
+  font-size: 4rem;
+  font-family: "Great Vibes", cursive;
+  color: #c0a656;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 990px) {
+  #about .inner {
+    flex-direction: column;
+  }
+  #about .inner:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  #about .inner div {
+    width: 100%;
+  }
+}

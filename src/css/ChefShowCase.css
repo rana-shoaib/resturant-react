@@ -1,0 +1,25 @@
+.shef-show-case {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.shef-show-case img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.shef-show-case h3 {
+  color: hsl(0, 0%, 20%);
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
+
+.shef-show-case h6 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.8rem;
+}
+.shef-show-case #social-icons i {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #c0a656;
+}

@@ -1,0 +1,17 @@
+#gallery {
+  background-color: #141313;
+  padding: 30px 0px;
+}
+#gallery-grid {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+#gallery-grid div {
+  width: 33.33%;
+  cursor: pointer;
+}
+#gallery-grid div img {
+  width: 100%;
+}
